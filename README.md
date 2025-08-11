@@ -31,10 +31,10 @@ void loop() {   // Se repite infinitamente
   digitalWrite(8, LOW);   // Apagar LED 2
   delay(200);            //esperar 1 
 
-   digitalWrite(8, HIGH);  // Encender LED 1
+   digitalWrite(8, HIGH);  // Encender LED 2
   delay(800);
   
-  digitalWrite(13, LOW);   // Apagar LED 2
+  digitalWrite(13, LOW);   // Apagar LED 1
   delay(90);             // Esperar 1 segundo
   
               
