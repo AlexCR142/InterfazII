@@ -37,8 +37,7 @@ void loop() {   // Se repite infinitamente
   digitalWrite(13, LOW);   // Apagar LED 2
   delay(90);             // Esperar 1 segundo
   
-               // Esperar 1 segundo
-  
+              
 }
 
 ```
