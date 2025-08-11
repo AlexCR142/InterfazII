@@ -15,7 +15,7 @@ void loop() {
 
 ```
 
-#### LED parpadeante 
+#### Ejercicio n° 2 LED parpadeante 
 
 ```js
 
@@ -42,7 +42,7 @@ void loop() {   // Se repite infinitamente
 
 ```
 
-#### LED boton 
+#### Ejercicio n° 3 LED boton 
 
 ```js
 void setup() {
@@ -58,7 +58,7 @@ void loop() {
 }
 
 ```
-#### LED Potenciometro
+#### Ejercicio n° 4 LED Potenciometro
 
 ```js
 void setup() {
