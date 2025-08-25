@@ -41,6 +41,7 @@ void loop() {   // Se repite infinitamente
 }
 
 ```
+<img src="https://raw.githubusercontent.com/AlexCR142/InterfazII/refs/heads/main/img/LED%20parpadea.png"/>
 
 #### Ejercicio n° 3 LED boton 
 
@@ -58,6 +59,8 @@ void loop() {
 }
 
 ```
+<img src="https://raw.githubusercontent.com/AlexCR142/InterfazII/refs/heads/main/img/LED%20boton.png"/>
+
 #### Ejercicio n° 4 LED Potenciometro
 
 ```js
@@ -70,7 +73,9 @@ void loop() {
   analogWrite(9, brillo);               // Ajustar brillo
 }
 ```
-### Ejercicio n° 5
+<img src="https://raw.githubusercontent.com/AlexCR142/InterfazII/refs/heads/main/img/LED%20potenciometro.png"/>
+
+### Ejercicio n° 5 Semaforo
 
 ```js
 // C++ code - Semáforo Autos y Peatones
