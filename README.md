@@ -128,6 +128,7 @@ void loop() {
 ### Ejercicio n° 6 Semaforo parpadeo peaton 
 
 ´´´js
+
 // C++ code - Semáforo Autos y Peatones
 
 // Definición de pines
