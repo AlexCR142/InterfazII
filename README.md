@@ -194,3 +194,28 @@ void loop() {
   //delay(2000); // 2 segundos
 }
 ```
+### Ejercicio n° 7 Arduino boton processing
+
+#### Codigo Arduino 
+
+```js
+int buttonPin = 2;  // Pin del botón
+int buttonState = 0;
+
+void setup() {
+  pinMode(buttonPin, INPUT_PULLUP); // Botón con resistencia interna
+  Serial.begin(9600);
+}
+
+void loop() {
+  buttonState = digitalRead(buttonPin);
+
+  if (buttonState == HIGH) {   // Botón presionado
+    Serial.println(1);        // Enviar un "1" a Processing
+    delay(200);               // Evitar rebotes
+  }
+}
+```
+
+#### Codigo Processing
+
