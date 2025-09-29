@@ -195,6 +195,7 @@ void loop() {
 }
 ```
 <img src=https://github.com/AlexCR142/InterfazII/blob/main/img/semaforo%20interfaz.png/>
+
 ### Ejercicio n° 7 Arduino boton processing
 
 #### Codigo Arduino 
