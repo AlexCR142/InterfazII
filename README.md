@@ -348,4 +348,4 @@ class CircleData {
 ### Ejercicio n° 9 Botonera 
 
 <img src="https://github.com/AlexCR142/InterfazII/blob/main/img/Captura%20de%20pantalla%20botonera.png"/>
-
+<img src=https://raw.githubusercontent.com/AlexCR142/InterfazII/refs/heads/main/img/botonera.png/>
