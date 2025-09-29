@@ -197,7 +197,7 @@ void loop() {
 ```
 <img src=https://github.com/AlexCR142/InterfazII/blob/main/img/semaforo%20interfaz.png/>
 
-### Ejercicio n° 6 Elipse Interactiva 
+### Ejercicio n° 6 Elipse Interactiva con Potenciometro 
 
 #### Codigo Arduino 
 
