@@ -74,6 +74,7 @@ void loop() {
 }
 ```
 <img src="https://raw.githubusercontent.com/AlexCR142/InterfazII/refs/heads/main/img/LED%20potenciometro.png"/>
+<img src="https://github.com/AlexCR142/InterfazII/blob/main/img/Captura%20de%20pantalla%202025-09-29%20093753.png"/>
 
 ### Ejercicio n° 5 Semaforo
 
@@ -125,7 +126,7 @@ void loop() {
 ```
 <img src="https://raw.githubusercontent.com/AlexCR142/InterfazII/refs/heads/main/img/tinkercad%20semaforo.png"/>
 
-### Ejercicio n° 6 Semaforo parpadeo peaton 
+### Semaforo parpadeo peaton 
 
 ```js
 
@@ -195,6 +196,27 @@ void loop() {
 }
 ```
 <img src=https://github.com/AlexCR142/InterfazII/blob/main/img/semaforo%20interfaz.png/>
+
+### Ejercicio n° 6 Elipse Interactiva 
+
+#### Codigo Arduino 
+
+```js
+unsigned int ADCValue;
+void setup(){
+    Serial.begin(9600);
+}
+
+void loop(){
+
+ int val = analogRead(0);
+   val = map(val, 0, 300, 0, 255);
+    Serial.println(val);
+delay(50);
+}
+
+```
+
 
 ### Ejercicio n° 7 Arduino boton processing
 
@@ -346,7 +368,49 @@ class CircleData {
   }
 }
 ```
-### Ejercicio n° 9 Botonera 
+### Ejercicio n° 9 Estructuras de control de Arduino 
+
+#### For
+
+```js
+void setup() {
+  Serial.begin(9600);   // Inicia la comunicación serial
+}
+
+void loop() {
+  for (int i = 0; i < 5; i++) {
+    Serial.println(i);  // imprime 0,1,2,3,4
+    delay(500);         // medio segundo entre cada número
+  }
+}
+```
+
+#### if/else
+
+```js
+
+int valor;  // aquí guardaremos la lectura del sensor
+
+void setup() {
+  Serial.begin(9600);   // Inicia la comunicación serial
+}
+
+void loop() {
+  valor = analogRead(A0);   // lee el pin analógico A0
+
+  if (valor < 200) {
+    Serial.println("Muy bajo");
+  } else if (valor < 500) {
+    Serial.println("Medio");
+  } else {
+    Serial.println("Alto");
+  }
+
+  delay(500); // medio segundo entre lecturas
+}
+```
+
+### Ejercicio n° 10 Botonera 
 
 #### Codigo Processing
 
@@ -422,7 +486,7 @@ void loop() {
 <img src="https://github.com/AlexCR142/InterfazII/blob/main/img/Captura%20de%20pantalla%20botonera.png"/>
 <img src="https://raw.githubusercontent.com/AlexCR142/InterfazII/refs/heads/main/img/botonera.png"/>
 
-### Ejercicio n° 10  Botonera Con Sonido
+### Botonera Con Sonido
 
 #### Codigo Processing 
 
