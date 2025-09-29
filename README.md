@@ -195,7 +195,7 @@ void loop() {
   //delay(2000); // 2 segundos
 }
 ```
-<img src=https://github.com/AlexCR142/InterfazII/blob/main/img/semaforo%20interfaz.png/>
+<img src="https://github.com/AlexCR142/InterfazII/blob/main/img/semaforo%20interfaz.png"/>
 
 ### Ejercicio n° 6 Elipse Interactiva con Potenciometro 
 
@@ -216,6 +216,8 @@ delay(50);
 }
 
 ```
+<img src="https://github.com/AlexCR142/InterfazII/blob/main/img/unnamed.png"/>
+
 #### Codigo Processing 
 
 ```js
