@@ -620,3 +620,76 @@ void playTrack(int index) {
 ```
 <img src="https://raw.githubusercontent.com/AlexCR142/InterfazII/refs/heads/main/img/botonera.png"/>
 
+### Entrega I  Semaforo doble 
+
+```js
+// C++ code - Semáforo Autos y Peatones
+
+// Definición de pines
+int LED_1 = 2;  // Luz roja autos
+int LED_2 = 3;  // Luz amarilla autos
+int LED_3 = 4;  // Luz verde autos
+int LED_4 = 5;  // Luz verde peatones
+int LED_5 = 6; //  Luz roja peatones 
+int LED_6 = 7;  // II Luz roja autos
+int LED_7 = 8;  // II Luz amarilla autos
+int LED_8 = 9;  // II Luz verde autos
+int LED_9 = 10;  // II Luz verde peatones
+int LED_10 = 11; // II Luz roja peatones
+
+void setup() {
+  // Configuramos todos los pines como salida
+  pinMode(LED_1, OUTPUT);
+  pinMode(LED_2, OUTPUT);
+  pinMode(LED_3, OUTPUT);
+  pinMode(LED_4, OUTPUT);
+  pinMode(LED_5, OUTPUT);
+  pinMode(LED_6, OUTPUT);
+  pinMode(LED_7, OUTPUT);
+  pinMode(LED_8, OUTPUT);
+  pinMode(LED_9, OUTPUT);
+  pinMode(LED_10, OUTPUT);
+}
+
+void loop() {
+  // 🚦 Fase 1: Autos en verde, peatones en rojo
+  digitalWrite(LED_1, LOW);   // Rojo autos apagado
+  digitalWrite(LED_2, LOW);   // Amarillo autos apagado
+  digitalWrite(LED_3, HIGH);  // Verde autos encendido
+  digitalWrite(LED_4, LOW);   // Verde peatones apagado
+  digitalWrite(LED_5, HIGH);// Rojo peatones encendido
+   
+  digitalWrite(LED_6,HIGH);   // II Rojo autos encendido 
+  digitalWrite(LED_7, LOW);   // II Amarillo autos apagado
+  digitalWrite(LED_8, LOW);  // II Verde autos APAGADO
+  digitalWrite(LED_9, HIGH);   //II  Verde peatones ENCENDIDO
+  digitalWrite(LED_10, LOW);  // II Rojo peatones APAGADO
+  delay(5000); // 5 segundos
+
+  // 🚦 Fase 2: Amarillo autos, peatones siguen en rojo
+  digitalWrite(LED_3, LOW);   // Verde autos apagado
+  digitalWrite(LED_2, HIGH);  // Amarillo autos encendido
+  delay(2000); // 2 segundos
+  digitalWrite(LED_2, LOW);   // Amarillo autos apagado
+
+  // 🚦 Fase 3: Rojo autos, verde peatones
+  
+  digitalWrite(LED_1, HIGH);  // Rojo autos encendido
+   digitalWrite(LED_4, HIGH);  //VERDE PEATONES PARPADEA
+  digitalWrite(LED_5, LOW);   // Rojo peatones apagado
+   digitalWrite(LED_6, LOW);  // II Rojo autos APAGADO
+  digitalWrite(LED_8, HIGH);  // II LED verde AUTOS ENCENDIDA
+  digitalWrite(LED_9, LOW);   //II VERDE PEATONES APAGADA
+ digitalWrite(LED_10, HIGH);  // II Rojo peatones ENCENDIDA
+  delay(5000); // 5 segundos
+ 
+  digitalWrite(LED_8, LOW);   // II Verde autos apagado
+  digitalWrite(LED_7, HIGH);  // II Amarillo autos encendido
+  delay(2000); // 2 segundos
+  digitalWrite(LED_7, LOW);   // II Amarillo autos apagado 
+  
+  
+
+}
+
+```
