@@ -696,9 +696,9 @@ void loop() {
 <img src="https://github.com/AlexCR142/InterfazII/blob/main/img/Captura%20de%20pantalla%202025-10-06%20095255.png"/>
 <img src="https://github.com/AlexCR142/InterfazII/blob/main/img/Captura%20de%20pantalla%202025-10-06%20095347.png"/>
 
-#### Ejercicio n° 11 Sensor sharp
+### Ejercicio n° 11 Sensor sharp
 
-### Codigo Arduino 
+#### Codigo Arduino 
 
 ```js
 
@@ -716,7 +716,7 @@ void loop() {
 }
 ```
 
-### Codigo Processing
+#### Codigo Processing
 
 ```js 
 import processing.serial.*;
