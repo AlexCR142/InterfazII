@@ -1,6 +1,6 @@
 # InterfazII
 
-##### Introduccion a proccesing y Arduino para el desarrollo de una interfaz interactiva
+##### Introduccion a proccesing y Arduino para el desarrollo de una interfaz interactiva Humano-Maquina (humacchina) como pieza artistica
 
 1. [Hola Mundo](#ejercicio-n-1-hola-mundo) <br> 
 
