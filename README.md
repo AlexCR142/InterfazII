@@ -698,3 +698,66 @@ void loop() {
 
 #### Ejercicio n° 11 Sensor sharp
 
+### Codigo Arduino 
+
+```js
+
+// Definir el pin del sensor Sharp
+int sharpPin = A0;
+
+void setup() {
+  Serial.begin(9600); // Iniciar comunicación serial
+}
+
+void loop() {
+  int sensorValue = analogRead(sharpPin); // Leer valor del sensor
+  Serial.println(sensorValue); // Enviar valor a Processing
+  delay(1000); // Esperar un momento
+}
+```
+
+### Codigo Processing
+
+```js 
+import processing.serial.*;
+
+Serial myPort;  // Create object from Serial class
+static String val;    // Data received from the serial port
+int sensorVal = 0;
+
+void setup()
+{
+  background(0); 
+  //fullScreen(P3D);
+   size(1080, 720);
+   noStroke();
+  noFill();
+  String portName = "COM3";// Change the number (in this case ) to match the corresponding port number connected to your Arduino. 
+
+  myPort = new Serial(this, Serial.list()[0], 9600);
+}
+
+void draw()
+{
+  if ( myPort.available() > 0) {  // If data is available,
+  val = myPort.readStringUntil('\n'); 
+  try {
+   sensorVal = Integer.valueOf(val.trim());
+  }
+  catch(Exception e) {
+  ;
+  }
+  println(sensorVal); // read it and store it in vals!
+  }  
+ //background(0);
+  // Scale the mouseX value from 0 to 640 to a range between 0 and 175
+  float c = map(sensorVal, 0, width, 0, 400);
+  // Scale the mouseX value from 0 to 640 to a range between 40 and 300
+  float d = map(sensorVal, 0, width, 40,500);
+  fill(255, c, 0);
+  ellipse(width/2, height/2, d, d);   
+
+}
+
+```
+<img src="https://raw.githubusercontent.com/AlexCR142/InterfazII/refs/heads/main/img/Captura%20de%20pantalla%202025-10-13%20094833.png"/> 
