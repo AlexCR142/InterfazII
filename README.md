@@ -10,11 +10,11 @@
 6. [Processing + Arduino con potenciometro](#ejercicio-n-6-elipse-interactiva-con-potenciometro) <br>
 7. [Arduino + Boton + Processing](#ejercicio-n-7-arduino-boton-processing) <br>
 8. [Arduino + Boton + Potenciometro + Processing](#ejercicio-n-8-arduino-boton-potenciometro-processing) <br>
-9. [](#) <br>
-10. [](#) <br>
-11. [Entrega I](#) <br>
-12. [](#) <br>
-13. [](#) <br>
+9. [Estructuras de control de Arduino](#ejercicio-n-9-estructuras-de-control-de-arduino) <br>
+10. [Botonera](#ejercicio-n-10-botonera) <br>
+11. [Entrega I](#entrega-i--semaforo-doble) <br>
+12. [Sensor Sharp](#ejercicio-n-11-sensor-sharp) <br>
+13. [Sensor Humedad](#ejercicio-n-12-sensor-humedad) <br>
 
 ### Ejercicio n° 1 HOLA MUNDO! 
 
