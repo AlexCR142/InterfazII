@@ -15,6 +15,7 @@
 11. [Entrega I](#entrega-i--semaforo-doble) <br>
 12. [Sensor Sharp](#ejercicio-n-11-sensor-sharp) <br>
 13. [Sensor Humedad](#ejercicio-n-12-sensor-humedad) <br>
+14. [Promedio de Imagen](#) <br>
 
 ### Ejercicio n° 1 HOLA MUNDO! 
 
@@ -796,7 +797,7 @@ void loop()
 }
 ```
 
-### Ejercicio n° 13 
+### Ejercicio n° 13 Promedio de Imagenes 
 
 #### Codigo Arduino
 
@@ -880,3 +881,4 @@ void calcAverage(float t) {
 }
 
 ```
+<img src="https://raw.githubusercontent.com/AlexCR142/InterfazII/refs/heads/main/img/Captura%20de%20pantalla%202025-10-20%20103926.png"/> 
