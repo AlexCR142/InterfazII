@@ -12,7 +12,7 @@
 8. [Arduino + Boton + Potenciometro + Processing](#ejercicio-n-8-arduino-boton-potenciometro-processing) <br>
 9. [Estructuras de control de Arduino](#ejercicio-n-9-estructuras-de-control-de-arduino) <br>
 10. [Botonera](#ejercicio-n-10-botonera) <br>
-11. [Entrega I](#entrega-i--semaforo-doble) <br>
+11. [ENTREGA I](#entrega-i--semaforo-doble) <br>
 12. [Sensor Sharp](#ejercicio-n-11-sensor-sharp) <br>
 13. [Sensor Humedad](#ejercicio-n-12-sensor-humedad) <br>
 14. [Promedio de Imagen](#ejercicio-n-13-promedio-de-imagenes) <br>
