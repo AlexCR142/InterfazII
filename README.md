@@ -1080,3 +1080,7 @@ PImage[] loadImagesFromFolder(String folderName) {
 <img src="https://github.com/AlexCR142/InterfazII/blob/main/img/Captura%20de%20pantalla%202025-10-27%20093629.png"/> 
 
 <img src="https://github.com/AlexCR142/InterfazII/blob/main/img/Captura%20de%20pantalla%202025-10-27%20093654.png"/> 
+
+### ENTREGA FINAL 
+
+#### Storyboard 
