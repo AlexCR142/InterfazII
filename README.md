@@ -16,7 +16,8 @@
 12. [Sensor Sharp](#ejercicio-n-11-sensor-sharp) <br>
 13. [Sensor Humedad](#ejercicio-n-12-sensor-humedad) <br>
 14. [Promedio de Imagen](#ejercicio-n-13-promedio-de-imagenes) <br>
-15. [Promedio de imagenes llamando carpeta + potenciometro](#ejercicio-14-promedio-de-imagenes-llamando-una-carpeta--potenciometro) <br> 
+15. [Promedio de imagenes llamando carpeta + potenciometro](#ejercicio-14-promedio-de-imagenes-llamando-una-carpeta--potenciometro) <br>
+16. [ENTREGA FINAL](#entrega-final) <br>
 
 ### Ejercicio n° 1 HOLA MUNDO! 
 
