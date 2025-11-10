@@ -1271,3 +1271,5 @@ PImage[] loadImagesFromFolder(String folderName) {
 
 #### Storyboard 
 
+<img src="https://github.com/AlexCR142/InterfazII/blob/main/img/Captura%20de%20pantalla%202025-11-10%20101100.png"/> 
+
