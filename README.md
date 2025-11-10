@@ -1084,6 +1084,8 @@ PImage[] loadImagesFromFolder(String folderName) {
 
 ## ENTREGA FINAL: Desasosiego
 
+Realizaremos una secuencia de fotografías en blanco y negro que serán intervenidas posteriormente de forma análoga a partir de la tecnica rotoscopia. Haremos uso del ejercicio “promedio de Imágenes” a través de los programas Arduino IDE y Processing, y de un circuito que incluye un potenciómetro.
+
 #### Codigo Arduuino 
 ```js
 void setup() {
