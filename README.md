@@ -1275,3 +1275,12 @@ PImage[] loadImagesFromFolder(String folderName) {
 
 <img src="https://github.com/AlexCR142/InterfazII/blob/main/img/Captura%20de%20pantalla%202025-11-10%20101100.png"/> 
 
+#### Proceso 
+
+<img src="https://github.com/AlexCR142/InterfazII/blob/main/img/3e7fbbf7-dd20-4248-a55b-67d2bd2b3174.jpg"/> 
+
+#### Montaje
+
+<img src="https://github.com/AlexCR142/InterfazII/blob/main/img/159096ed-1c53-4b2c-9c22-722aa9c95e40.jpg"/> 
+<img src="https://github.com/AlexCR142/InterfazII/blob/main/img/88a2095a-8cb8-4a34-bc60-6d43cfaca265.jpg"/> 
+<img src="https://github.com/AlexCR142/InterfazII/blob/main/img/aa1bf823-ac74-4370-b6cb-d1e9e8515833.jpg"/> 
