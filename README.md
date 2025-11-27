@@ -1278,6 +1278,8 @@ PImage[] loadImagesFromFolder(String folderName) {
 #### Proceso 
 
 <img src="https://github.com/AlexCR142/InterfazII/blob/main/img/3e7fbbf7-dd20-4248-a55b-67d2bd2b3174.jpg"/> 
+<img src="https://github.com/AlexCR142/InterfazII/blob/main/img/Captura%20de%20pantalla%202025-11-27%20192345.png"/> 
+<img src="https://github.com/AlexCR142/InterfazII/blob/main/img/Captura%20de%20pantalla%202025-11-27%20192322.png"/> 
 
 #### Montaje
 
